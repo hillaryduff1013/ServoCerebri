@@ -1,0 +1,250 @@
+#bimg {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 115%;
+    opacity: 0.6;
+    z-index: -100;
+}
+
+.header {
+  overflow: hidden;
+  background-color: aliceblue;
+  padding: 20px 10px;
+}
+
+.header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+.header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.header a:hover {
+  background-color: #0AF9BC;
+  color: black;
+}
+
+.header a.active {
+  background-color: dodgerblue;
+  color: white;
+}
+
+.header-right {
+  float: right;
+}
+
+h1 {
+    text-align: center;
+    box-sizing: border-box;
+    font-size: 80px;
+    padding: 30px;
+    font-family: fantasy;
+    font-weight: 900;
+}
+
+#Servo {
+    position: relative;
+    bottom: 90px;
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+#KHP {
+    box-sizing: border-box;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: lightcyan;
+    padding: 5px;
+    font-size: 15px;
+    font-family: monospace;
+    font-weight: normal;
+}
+
+#Tg {
+    box-sizing: border-box;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: lightcyan;
+    padding: 5px;
+    font-size: 15px;
+    font-family: monospace;
+    font-weight: normal;
+}
+
+#CRTC {
+    box-sizing: border-box;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: lightcyan;
+    padding: 5px;
+    font-size: 15px;
+    font-family: monospace;
+    font-weight: normal;
+} 
+
+#ES {
+    box-sizing: border-box;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: lightcyan;
+    padding: 5px;
+    font-size: 12.5px;
+    font-family: monospace;
+    font-weight: normal;
+}
+
+#AYSP {
+    box-sizing: border-box;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: lightcyan;
+    padding: 5px;
+    font-size: 15px;
+    font-family: monospace;
+    font-weight: normal;
+}
+
+#NYS {
+    box-sizing: border-box;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: lightcyan;
+    padding: 5px;
+    font-size: 15px;
+    font-family: monospace;
+    font-weight: normal;
+}
+
+#THP {
+    box-sizing: border-box;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: lightcyan;
+    padding: 5px;
+    font-size: 12.5px;
+    font-family: monospace;
+    font-weight: normal;
+}
+
+#WOHS {
+    box-sizing: border-box;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: lightcyan;
+    padding: 5px;
+    font-size: 12px;
+    font-family: monospace;
+    font-weight: 200;
+}
+
+#RYFS {
+    box-sizing: border-box;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: lightcyan;
+    padding: 5px;
+    font-size: 12px;
+    font-family: monospace;
+    font-weight: 200;
+}
+
+#ACTT {
+    box-sizing: border-box;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: lightcyan;
+    padding: 5px;
+    font-size: 12px;
+    font-family: monospace;
+    font-weight: 200;
+}
+
+#BroTalk{
+    box-sizing: border-box;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: lightcyan;
+    padding: 5px;
+    font-size: 15px;
+    font-family: monospace;
+    font-weight: normal;  
+}
+
+footer {
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    background-color: azure;
+    color: black;
+    text-align: center;
+    font-size: 12px;
+    font-family: monospace;
+}
+
+@media screen and (max-width: 800px) {
+    
+#bimg {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 170%;
+    opacity: 0.6;
+    z-index: -100;
+}
+    
+  .header a {
+    float: none;
+    display: block;
+    text-align: center;
+  }
+  .header-right {
+    float: none;
+  }
+    #WOHS {
+        width: 70%;
+    }
+    #RYFS {
+        width: 70%;
+    }
+    #ACTT {
+        width: 70%;
+    }
+    
+}
