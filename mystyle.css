@@ -1,6 +1,7 @@
 body {
   font-family: Arial;
   margin: 0;
+  background-color: ghostwhite;
 }
 
 .header {
@@ -132,6 +133,11 @@ img {
 
 .img {
     max-height: 700px;
+}
+
+p {
+    font-family: fantasy;
+    text-align: center;
 }
 
 @media screen and (max-width: 800px) {
